@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="NoteApp.Maui.Pages.Login"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Login">
+    <VerticalStackLayout>
+        <Label
+            HorizontalOptions="Center"
+            Text="Bienvenido a Note App"
+            VerticalOptions="Center" />
+
+        <Entry x:Name="userTxt" />
+        <Entry x:Name="passTxt" />
+        <Button Clicked="Button_Clicked" Text="Iniciar Sesion" />
+
+    </VerticalStackLayout>
+</ContentPage>
